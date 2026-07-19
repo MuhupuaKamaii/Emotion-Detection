@@ -1,6 +1,6 @@
 Real-Time Facial Emotion Detection
 
-A real-time computer vision system that detects faces through a webcam and classifies emotions live — happy, sad, angry, surprised, and more — with confidence scores, running entirely in the browser.
+A real-time computer vision system that detects faces through a webcam and classifies emotions live: happy, sad, angry, surprised, and more, with confidence scores, running entirely in the browser.
 
 Features:
 
@@ -9,14 +9,14 @@ Detects multiple faces simultaneously
 Classifies 7 emotions per face: neutral, happy, sad, angry, fearful, disgusted, surprised
 Live confidence score per detected emotion
 Color-coded bounding box and landmark overlay per emotion, so results are readable at a glance instead of raw numbers
-Runs fully client-side — no backend, no video data ever leaves the browser
+Runs fully client-side. No backend, no video data ever leaves the browser
 
 
 Tech Stack:
 
 
 JavaScript
-face-api.js (built on TensorFlow.js) — face detection, facial landmarks, and expression classification
+face-api.js (built on TensorFlow.js)- face detection, facial landmarks, and expression classification
 HTML5 Canvas - live overlay rendering
 
 
